@@ -111,6 +111,17 @@ async function run() {
       });
     });
 
+    app.post("/payments", verifyJWT, async (req, res) => {
+      const payment = req.body;
+      const insertResult = await paymentCollection.insertOne(payment);
+
+      const query = {
+        _id: { $in: payment.classes.map((id) => new ObjectId(id)) },
+      };
+      const deleteResult = await selectedclassCollection.deleteMany(query);
+      res.send({ insertResult, deleteResult });
+    });
+
     //  users part
     app.get("/users", verifyJWT, verifyAdmin, async (req, res) => {
       const result = await usersCollection.find().toArray();

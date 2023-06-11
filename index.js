@@ -145,6 +145,13 @@ async function run() {
       res.send(result);
     });
 
+    app.delete("/selectedclass/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await selectedclassCollection.deleteOne(query);
+      res.send(result);
+    });
+
     //
     app.get("/instructorClasses", verifyJWT, async (req, res) => {
       const email = req.query.email;

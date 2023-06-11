@@ -5,7 +5,7 @@ const jwt = require("jsonwebtoken");
 require("dotenv").config();
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 const stripe = require("stripe")(process.env.PAYMENT_SECRET_KEY);
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 
 // middleware
 app.use(cors());
@@ -28,6 +28,14 @@ async function run() {
     // Connect the client to the server	(optional starting in v4.7)
     // await client.connect();
     client.connect();
+
+    const classesCollection = client.db("summerCampdb").collection("classes");
+
+    // classes part
+    app.get("/classes", async (req, res) => {
+      const result = await classesCollection.find().toArray();
+      res.send(result);
+    });
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });

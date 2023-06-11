@@ -59,6 +59,17 @@ async function run() {
       .db("summerCampdb")
       .collection("instructors");
 
+    // JWT part
+    app.post("/jwt", (req, res) => {
+      const user = req.body;
+      const token = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET, {
+        expiresIn: "1h",
+        // expiresIn: 1,
+      });
+
+      res.send({ token });
+    });
+
     //  users part
     app.get("/users", verifyJWT, verifyAdmin, async (req, res) => {
       const result = await usersCollection.find().toArray();

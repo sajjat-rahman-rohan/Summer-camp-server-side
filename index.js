@@ -44,6 +44,31 @@ async function run() {
       res.send(result);
     });
 
+    app.put("/classes/:id", async (req, res) => {
+      const id = req.params.id;
+      const filter = { _id: new ObjectId(id) };
+      const options = { upsert: true };
+      const updatedClasses = req.body;
+
+      const updatedclass = {
+        $set: {
+          className: updatedClasses.className,
+          instructorName: updatedClasses.instructorName,
+          email: updatedClasses.email,
+          availableSeat: updatedClasses.availableSeat,
+          price: updatedClasses.price,
+          description: updatedClasses.description,
+        },
+      };
+
+      const result = await classesCollection.updateOne(
+        filter,
+        updatedclass,
+        options
+      );
+      res.send(result);
+    });
+
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log(

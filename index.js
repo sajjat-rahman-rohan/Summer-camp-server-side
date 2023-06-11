@@ -58,6 +58,7 @@ async function run() {
     const instructorsCollection = client
       .db("summerCampdb")
       .collection("instructors");
+    const paymentCollection = client.db("summerCampdb").collection("payments");
 
     // JWT part
     app.post("/jwt", (req, res) => {

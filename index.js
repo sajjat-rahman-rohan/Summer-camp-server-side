@@ -69,6 +69,13 @@ async function run() {
       res.send(result);
     });
 
+    app.get("/classes/feedback/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await classesCollection.findOne(query);
+      res.send(result);
+    });
+
     app.put("/classes/feedback/:id", async (req, res) => {
       const id = req.params.id;
       const filter = { _id: new ObjectId(id) };

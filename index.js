@@ -122,6 +122,25 @@ async function run() {
       res.send({ insertResult, deleteResult });
     });
 
+    app.get("/paymentscomplete", verifyJWT, async (req, res) => {
+      const email = req.query.email;
+      console.log(email);
+      if (!email) {
+        res.send([]);
+      }
+
+      const decodedEmail = req.decoded.email;
+      if (email !== decodedEmail) {
+        return res
+          .status(403)
+          .send({ error: true, message: "forbidden access" });
+      }
+
+      const query = { email: email };
+      const result = await paymentCollection.find(query).toArray();
+      res.send(result);
+    });
+
     //  users part
     app.get("/users", verifyJWT, verifyAdmin, async (req, res) => {
       const result = await usersCollection.find().toArray();

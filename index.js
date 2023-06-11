@@ -29,7 +29,20 @@ async function run() {
     // await client.connect();
     client.connect();
 
+    const usersCollection = client.db("summerCampdb").collection("users");
     const classesCollection = client.db("summerCampdb").collection("classes");
+    const selectedclassCollection = client
+      .db("summerCampdb")
+      .collection("selectedclass");
+    const instructorsCollection = client
+      .db("summerCampdb")
+      .collection("instructors");
+
+    //  users part
+    app.get("/users", verifyJWT, verifyAdmin, async (req, res) => {
+      const result = await usersCollection.find().toArray();
+      res.send(result);
+    });
 
     // classes part
     app.get("/classes", async (req, res) => {
@@ -111,7 +124,7 @@ async function run() {
       res.send(result);
     });
 
-    //
+    // selected clases part
 
     app.post("/selectedclass", async (req, res) => {
       const item = req.body;
@@ -179,8 +192,7 @@ async function run() {
       res.send(result);
     });
 
-    //
-
+    // instructors part
     app.get("/instructors", async (req, res) => {
       const result = await instructorsCollection.find().toArray();
       res.send(result);
@@ -192,7 +204,7 @@ async function run() {
       res.send(result);
     });
 
-    //
+    // approved part
     app.patch("/classes/approved/:id", async (req, res) => {
       const id = req.params.id;
       console.log(id);

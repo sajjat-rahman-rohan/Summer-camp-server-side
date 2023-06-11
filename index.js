@@ -181,6 +181,11 @@ async function run() {
 
     //
 
+    app.get("/instructors", async (req, res) => {
+      const result = await instructorsCollection.find().toArray();
+      res.send(result);
+    });
+
     app.post("/aadedinstructors", async (req, res) => {
       const item = req.body;
       const result = await instructorsCollection.insertOne(item);

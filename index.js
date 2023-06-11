@@ -119,6 +119,13 @@ async function run() {
       res.send(result);
     });
 
+    app.get("/selectedclass/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await selectedclassCollection.findOne(query);
+      res.send(result);
+    });
+
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log(

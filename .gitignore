@@ -1,0 +1,6 @@
+node_modules
+.env
+.vercel
+instructor.json
+classes.json
+c.css

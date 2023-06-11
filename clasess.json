@@ -1,0 +1,250 @@
+[
+  {
+    "className": "Spanish Beginner",
+    "image": "https://i.ibb.co/xscdrF2/class1.jpg",
+    "instructorName": "Maria Rodriguez",
+    "availableSeat": 15,
+    "price": "$25",
+    "description": "Learn the basics of the Spanish language with a focus on vocabulary and grammar."
+  },
+  {
+    "className": "French Intermediate",
+    "image": "https://i.ibb.co/drC9HZY/class2.jpg",
+    "instructorName": "Jean-Luc Dubois",
+    "availableSeat": 12,
+    "price": "$30",
+    "description": "Build upon your existing French skills and improve your conversational abilities."
+  },
+  {
+    "className": "German Advanced",
+    "image": "https://i.ibb.co/rsR3T7f/class3.jpg",
+    "instructorName": "Hans Müller",
+    "availableSeat": 10,
+    "price": "$35",
+    "description": "Take your German proficiency to the next level through advanced grammar and reading exercises."
+  },
+  {
+    "className": "Italian Beginner",
+    "image": "https://i.ibb.co/k2Vdhkk/class4.jpg",
+    "instructorName": "Giulia Rossi",
+    "availableSeat": 20,
+    "price": "$28",
+    "description": "Start your journey in learning the Italian language, covering essential vocabulary and basic grammar."
+  },
+  {
+    "className": "Mandarin Intermediate",
+    "image": "https://i.ibb.co/89qzj2j/class5.jpg",
+    "instructorName": "Li Wei",
+    "availableSeat": 10,
+    "price": "$32",
+    "description": "Enhance your Mandarin skills and focus on improving your speaking and listening abilities."
+  },
+  {
+    "className": "Russian Advanced",
+    "image": "https://i.ibb.co/FJwfPcd/class6.jpg",
+    "instructorName": "Olga Ivanova",
+    "availableSeat": 8,
+    "price": "$40",
+    "description": "Take your Russian proficiency to an advanced level by mastering complex grammar and expanding your vocabulary."
+  },
+  {
+    "className": "Japanese Beginner",
+    "image": "https://i.ibb.co/gTJqw1N/class7.jpg",
+    "instructorName": "Hiroshi Tanaka",
+    "availableSeat": 15,
+    "price": "$26",
+    "description": "Learn the basics of Japanese language and culture, including writing systems and basic conversation."
+  },
+  {
+    "className": "Arabic Intermediate",
+    "image": "https://i.ibb.co/yYX3TT2/class8.jpg",
+    "instructorName": "Ahmed Khalid",
+    "availableSeat": 12,
+    "price": "$34",
+    "description": "Improve your Arabic skills through a focus on grammar, reading comprehension, and cultural understanding."
+  },
+  {
+    "className": "Portuguese Advanced",
+    "image": "https://i.ibb.co/HC6ht2S/class9.jpg",
+    "instructorName": "Rafael Silva",
+    "availableSeat": 10,
+    "price": "$38",
+    "description": "Advance your Portuguese proficiency through challenging conversations, writing exercises, and literature analysis."
+  },
+  {
+    "className": "Korean Beginner",
+    "image": "https://i.ibb.co/5GzgYR1/class10.jpg",
+    "instructorName": "Ji-hye Park",
+    "availableSeat": 18,
+    "price": "$29",
+    "description": "Start your journey into learning the Korean language and explore the fascinating Korean culture."
+  },
+  {
+    "className": "Swahili Intermediate",
+    "image": "https://i.ibb.co/GvDNzH7/class11.jpg",
+    "instructorName": "Amina Mwangi",
+    "availableSeat": 10,
+    "price": "$31",
+    "description": "Take your Swahili skills to the next level and engage in complex conversations and written communication."
+  },
+  {
+    "className": "Hindi Advanced",
+    "image": "https://i.ibb.co/gPMH4p3/class12.jpg",
+    "instructorName": "Amit Patel",
+    "availableSeat": 8,
+    "price": "$36",
+    "description": "Advance your Hindi proficiency through in-depth grammar study and cultural immersion."
+  },
+  {
+    "className": "Greek Beginner",
+    "image": "https://i.ibb.co/2cGbMpH/class13.jpg",
+    "instructorName": "Sophia Papadopoulos",
+    "availableSeat": 15,
+    "price": "$27",
+    "description": "Embark on a journey to learn the fundamentals of the Greek language, including basic vocabulary and grammar."
+  },
+  {
+    "className": "Dutch Intermediate",
+    "image": "https://i.ibb.co/wcJPGRM/class14.jpg",
+    "instructorName": "Pieter van den Berg",
+    "availableSeat": 12,
+    "price": "$33",
+    "description": "Build upon your existing Dutch skills and focus on developing fluency in speaking and writing."
+  },
+  {
+    "className": "Swedish Advanced",
+    "image": "https://i.ibb.co/R4Pn6zP/class15.jpg",
+    "instructorName": "Erik Johansson",
+    "availableSeat": 10,
+    "price": "$39",
+    "description": "Enhance your Swedish proficiency through advanced grammar topics and in-depth discussions on Swedish culture."
+  },
+  {
+    "className": "Hebrew Beginner",
+    "image": "https://i.ibb.co/KKfFGw7/class16.jpg",
+    "instructorName": "Rachel Cohen",
+    "availableSeat": 15,
+    "price": "#25",
+    "description": "Begin your journey into learning Hebrew and explore its unique alphabet, basic vocabulary, and sentence structure."
+  },
+  {
+    "className": "Chinese Intermediate",
+    "image": "https://i.ibb.co/sF63Ndb/class17.jpg",
+    "instructorName": "Wei Chen",
+    "availableSeat": 12,
+    "price": "$32",
+    "description": "Further develop your Chinese language skills through conversations, reading comprehension, and character writing."
+  },
+  {
+    "className": "Polish Advanced",
+    "image": "https://i.ibb.co/prWgdKH/class18.jpg",
+    "instructorName": "Katarzyna Nowak",
+    "availableSeat": 8,
+    "price": "$37",
+    "description": "Take your Polish language skills to an advanced level through complex grammar concepts and cultural immersion."
+  },
+  {
+    "className": "Thai Beginner",
+    "image": "https://i.ibb.co/tMrsKbh/class19.jpg",
+    "instructorName": "Somsak Wongchai",
+    "availableSeat": 20,
+    "price": "$28",
+    "description": "Begin your exploration of the Thai language and learn essential phrases, vocabulary, and basic grammar."
+  },
+  {
+    "className": "Indonesian Intermediate",
+    "image": "https://i.ibb.co/z83ZGbf/class20.jpg",
+    "instructorName": "Rani Susanto",
+    "availableSeat": 12,
+    "price": "$33",
+    "description": "Enhance your Indonesian language skills through interactive discussions, role-plays, and writing exercises."
+  },
+  {
+    "className": "Turkish Advanced",
+    "image": "https://i.ibb.co/89qzj2j/class5.jpg",
+    "instructorName": "Ahmet Yilmaz",
+    "availableSeat": 10,
+    "price": "$38",
+    "description": "Take your Turkish proficiency to an advanced level through challenging grammar topics and authentic materials."
+  },
+  {
+    "className": "Czech Beginner",
+    "image": "https://i.ibb.co/rsR3T7f/class3.jpg",
+    "instructorName": "Marketa Novakova",
+    "availableSeat": 15,
+    "price": "$26",
+    "description": "Start your journey into learning the Czech language, covering basic vocabulary, grammar, and pronunciation."
+  },
+  {
+    "className": "Norwegian Intermediate",
+    "image": "https://i.ibb.co/yYX3TT2/class8.jpg",
+    "instructorName": "Lars Andersen",
+    "availableSeat": 12,
+    "price": "$32",
+    "description": "Further develop your Norwegian language skills through conversation practice and reading comprehension."
+  },
+  {
+    "className": "Finnish Advanced",
+    "image": "https://i.ibb.co/GvDNzH7/class11.jpg",
+    "instructorName": "Hanna Koskinen",
+    "availableSeat": 10,
+    "price": "$37",
+    "description": "Advance your Finnish proficiency through complex grammar structures and engaging cultural discussions."
+  },
+  {
+    "className": "Vietnamese Beginner",
+    "image": "https://i.ibb.co/R4Pn6zP/class15.jpg",
+    "instructorName": "Trung Nguyen",
+    "availableSeat": 15,
+    "price": "$25",
+    "description": "Begin your journey into learning Vietnamese, covering basic vocabulary, tones, and sentence structures."
+  },
+  {
+    "className": "Danish Intermediate",
+    "image": "https://i.ibb.co/sF63Ndb/class17.jpg",
+    "instructorName": "Mette Larsen",
+    "availableSeat": 12,
+    "price": "$31",
+    "description": "Take your Danish skills to the next level by practicing more complex grammar and improving your fluency."
+  },
+  {
+    "className": "Slovak Advanced",
+    "image": "https://i.ibb.co/tMrsKbh/class19.jpg",
+    "instructorName": "Andrej Kovac",
+    "availableSeat": 10,
+    "price": "$36",
+    "description": "Deepen your knowledge of the Slovak language through advanced grammar concepts and authentic materials."
+  },
+  {
+    "className": "Icelandic Beginner",
+    "image": "https://i.ibb.co/drC9HZY/class2.jpg",
+    "instructorName": "Sigridur Jonsdottir",
+    "availableSeat": 20,
+    "price": "$29",
+    "description": "Start your journey into learning Icelandic and explore its unique grammar, pronunciation, and vocabulary."
+  },
+  {
+    "className": "Malay Intermediate",
+    "image": "https://i.ibb.co/wcJPGRM/class14.jpg",
+    "instructorName": "Mohammed Rahman",
+    "availableSeat": 12,
+    "price": "$33",
+    "description": "Enhance your Malay language skills through interactive conversations, reading, and writing exercises."
+  },
+  {
+    "className": "Tagalog Advanced",
+    "image": "https://i.ibb.co/z83ZGbf/class20.jpg",
+    "instructorName": "Maria Santos",
+    "availableSeat": 8,
+    "price": "$38",
+    "description": "Take your Tagalog proficiency to an advanced level through complex grammar topics and cultural immersion."
+  },
+  {
+    "className": "Hungarian Beginner",
+    "image": "https://i.ibb.co/FJwfPcd/class6.jpg",
+    "instructorName": "Balazs Nagy",
+    "availableSeat": 15,
+    "price": "$27",
+    "description": "Embark on a journey to learn the fundamentals of the Hungarian language, including basic vocabulary and grammar."
+  }
+]
